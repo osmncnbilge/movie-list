@@ -1,6 +1,6 @@
 # Movie List
 
-When the application is opened, you will see a list of movies. At the top of the list, there are suitable inputs for filtering, through which you can search for the movies you want. If you want to see the details of the listed movies, you can click on the ***IMDb ID number under the 'IMDb ID' column*** in the table to go to the Movie Details page. There you can see the details of the movie. Clicking the back button will take you back to the list of movies.
+When the application is opened, you will see a list of movies. At the top of the list, there are suitable inputs for filtering, through which you can search for the movies you want. ***If you want to see the details of the listed movies, you can click on the IMDb ID number under the 'IMDb ID' column in the table to go to the Movie Details page***. There you can see the details of the movie. Clicking the back button will take you back to the list of movies.
 
 ## Project Description
 
