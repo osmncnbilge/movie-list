@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Movie List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+When the application is opened, you will see a list of movies. At the top of the list, there are suitable inputs for filtering, through which you can search for the movies you want. If you want to see the details of the listed movies, you can click on the IMDb ID number under the 'IMDb ID' column in the table to go to the Movie Details page. There you can see the details of the movie. Clicking the back button will take you back to the list of movies.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a ReactJS application developed using Vite and Typescript. Material UI library is used for the UI (User Interface). Redux Toolkit is used for movie searches, and React Router Dom is used on the client side for displaying movie details.
 
-## Expanding the ESLint configuration
+## Technologies and Libraries
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Vite
+- Typescript
+- ReactJS
+- Material UI
+- Redux Toolkit
+- React Router Dom
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Clone the directory from GitHub to your local machine. Then, open CMD in the project directory.
+To run the project, ensure that npm is installed on your computer. If npm is not installed, please install it.
+Next, install dependencies by running `npm install` in your CMD after navigating to the project directory.
+After the dependencies are installed, run the project on your local machine using `npm run dev` command.
